@@ -1,0 +1,14 @@
+<p>observables works!</p>
+
+<input type="text" name="name" id="" [(ngModel)]="name">
+<input type="button" value="submit"  #add> 
+<!-- template reference variable #add -->
+
+<!-- history -->
+<h4>History</h4>
+<div>
+    <ul>
+        <li *ngFor="let val of history">{{val}}</li>
+    </ul>
+</div>
+
